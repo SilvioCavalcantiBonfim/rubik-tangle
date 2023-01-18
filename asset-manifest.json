@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c0ea19e.css",
-    "main.js": "/static/js/main.dba1f582.js",
-    "static/js/787.0cc8dee1.chunk.js": "/static/js/787.0cc8dee1.chunk.js",
-    "index.html": "/index.html",
-    "main.0c0ea19e.css.map": "/static/css/main.0c0ea19e.css.map",
-    "main.dba1f582.js.map": "/static/js/main.dba1f582.js.map",
-    "787.0cc8dee1.chunk.js.map": "/static/js/787.0cc8dee1.chunk.js.map"
+    "main.css": "/rubik-tangle/static/css/main.0c0ea19e.css",
+    "main.js": "/rubik-tangle/static/js/main.5043cb7e.js",
+    "static/js/787.0cc8dee1.chunk.js": "/rubik-tangle/static/js/787.0cc8dee1.chunk.js",
+    "index.html": "/rubik-tangle/index.html",
+    "main.0c0ea19e.css.map": "/rubik-tangle/static/css/main.0c0ea19e.css.map",
+    "main.5043cb7e.js.map": "/rubik-tangle/static/js/main.5043cb7e.js.map",
+    "787.0cc8dee1.chunk.js.map": "/rubik-tangle/static/js/787.0cc8dee1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c0ea19e.css",
-    "static/js/main.dba1f582.js"
+    "static/js/main.5043cb7e.js"
   ]
 }
