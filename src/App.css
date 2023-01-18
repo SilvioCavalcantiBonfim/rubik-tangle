@@ -3,5 +3,15 @@
   display: flex;
   min-width: 100vw;
   min-height: 100vh;
+  overflow: hidden;
   flex-wrap: wrap;
+}
+.boardParts{
+  width: max-content;
+  height: 90vh;
+  margin-top: 10vh;
+  /* background-color: black; */
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
 }
