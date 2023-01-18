@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Part from './components/Part';
 
 function App() {
+
+  const colors = [`#${Math.floor(Math.random()*16777215).toString(16)}`,`#${Math.floor(Math.random()*16777215).toString(16)}`,`#${Math.floor(Math.random()*16777215).toString(16)}`, `#${Math.floor(Math.random()*16777215).toString(16)}`];
+
+  const parts = [[0,1,2,3], [2,3,1,0], [1,3,0,2], [2,3,0,1], [3,1,2,0], [3,2,1,0], [1,0,2,3], [1,0,3,2],[3,0,1,2]]
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+        {
+          parts.map((e,i) => (
+            <Part color={e.map(ee => colors[ee])} width='30vmin' height='30vmin' key={i}/>
+          ))
+        }
     </div>
   );
 }
