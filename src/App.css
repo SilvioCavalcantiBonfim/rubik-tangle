@@ -4,12 +4,45 @@
   min-width: 100vw;
   min-height: 100vh;
   overflow: hidden;
+  flex-direction: column;
+}
+main section{
+  margin-left: 18vmin;
+  width: calc(100vw - 36vmin);
+  height: 90vh;
+  background-color: black;
+  display: flex;
   flex-wrap: wrap;
+}
+main{
+  display: flex;
+}
+header{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: blueviolet;
+  color: white;
+  text-shadow: 2px 2px #000;
+  font-size: 1rem;
+}
+button{
+  font-variant: all-small-caps;
+  font-family: title;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.5rem;
+}
+header h1{
+  /* font-family: title; */
+  font-variant: all-small-caps;
 }
 .boardParts{
   width: max-content;
   height: 90vh;
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   /* background-color: black; */
   flex-wrap: wrap;
   display: flex;
